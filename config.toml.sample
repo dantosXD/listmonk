@@ -9,15 +9,15 @@ address = "localhost:9000"
 # be replaced with a better multi-user, role-based authentication system.
 # IMPORTANT: Leave both values empty to disable authentication on admin
 # only where an external authentication is already setup.
-admin_username = "listmonk"
+admin_username = "prcc"
 admin_password = "listmonk"
 
 # Database.
 [db]
-host = "localhost"
+host = "srv-captain--listmonk-db"
 port = 5432
 user = "listmonk"
-password = "listmonk"
+password = "password"
 database = "listmonk"
 ssl_mode = "disable"
 max_open = 25
